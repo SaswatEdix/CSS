@@ -1,0 +1,22 @@
+div#d1{
+    border: 5px solid;
+    height: 75px;
+    overflow: visible;
+}
+div#d2{
+    border: 5px solid;
+    height: 75px;
+    overflow: hidden;
+    overflow: scroll;
+}
+div#d3{
+    border: 5px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 14px;
+}
+div#d4{
+    border: 5px solid;
+    height: 75px;
+    overflow: auto;
+}
