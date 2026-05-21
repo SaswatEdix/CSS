@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(58, 58, 58);
+    border: 5px solid red;
+    display: flow-root;
+}
+
+h1#h1 {
+    color: rgb(191, 191, 191);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:2px 2px 5px rgb(0, 0, 0),
+    -2px -2px 5px rgb(255, 255, 255);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    box-shadow: 2px 2px 5px rgb(255, 0, 0),
+    -2px -2px 5px rgb(234, 255, 0);
+    float: inline-start;
+    margin-right: 20px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    box-shadow: 2px 2px 5px rgb(255, 0, 0),
+    -2px -2px 5px rgb(234, 255, 0);
+    float: inline-end;
+    margin-right: 20px;
+}
+
+p#p1 {
+    color: rgb(255, 223, 128);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p#p2 {
+    color: #80dbff;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p#p3 {
+    color: hsl(347, 100%, 75%);
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}

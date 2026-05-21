@@ -1,26 +1,29 @@
 body {
-    background-color: rgb(41, 41, 41);
-    margin: 15px;
-    border-bottom: #80dbff;
+    background-color: rgb(58, 58, 58);
 }
 
 h1#h1 {
     color: rgb(191, 191, 191);
     text-align: center;
     text-decoration: underline;
-    border: 5px solid rgb(27, 43, 127);
-    padding: 20px;
-    border-radius: 68%;
-    border-style: groove;
+    text-shadow:2px 2px 5px rgb(0, 0, 0),
+    -2px -2px 5px rgb(255, 255, 255);
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    box-shadow: 2px 2px 5px rgb(255, 0, 0),
+    -2px -2px 5px rgb(234, 255, 0);
+    margin: auto;
 }
 
 p#p1 {
     color: rgb(255, 223, 128);
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     font-style: normal;
-    border-bottom: 3px solid #80dbff;
 }
 
 p#p2 {
@@ -29,14 +32,12 @@ p#p2 {
     font-weight: bold;
     text-align: center;
     font-style: italic;
-    border-left: 3px dotted crimson;
 }
 
 p#p3 {
     color: hsl(347, 100%, 75%);
     font-size: 20px;
     font-weight: 600;
-    text-align: right;
+    text-align: center;
     font-style: normal;
-    border-bottom: 5px groove yellow;
 }

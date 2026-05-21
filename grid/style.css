@@ -1,17 +1,15 @@
 body {
     background-color: rgb(41, 41, 41);
-    margin: 15px;
-    border-bottom: #80dbff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 80px;
+    gap: 6px;
 }
 
 h1#h1 {
     color: rgb(191, 191, 191);
     text-align: center;
     text-decoration: underline;
-    border: 5px solid rgb(27, 43, 127);
-    padding: 20px;
-    border-radius: 68%;
-    border-style: groove;
 }
 
 p#p1 {
@@ -20,7 +18,6 @@ p#p1 {
     font-weight: bold;
     text-align: left;
     font-style: normal;
-    border-bottom: 3px solid #80dbff;
 }
 
 p#p2 {
@@ -29,7 +26,6 @@ p#p2 {
     font-weight: bold;
     text-align: center;
     font-style: italic;
-    border-left: 3px dotted crimson;
 }
 
 p#p3 {
@@ -38,5 +34,4 @@ p#p3 {
     font-weight: 600;
     text-align: right;
     font-style: normal;
-    border-bottom: 5px groove yellow;
 }
